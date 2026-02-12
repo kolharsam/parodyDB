@@ -1,0 +1,11 @@
+services:
+  dev:
+    build: .
+    volumes:
+      - .:/parodydb
+      - target-cache:/parodydb/target
+    stdin_open: true
+    tty: true
+
+volumes:
+  target-cache:
