@@ -10,3 +10,4 @@ tests/pg_regress/regression.out
 .pgrx/
 instructions/
 .claude/
+docs/book/

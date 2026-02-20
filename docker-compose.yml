@@ -7,5 +7,14 @@ services:
     stdin_open: true
     tty: true
 
+  docs:
+    build:
+      context: ./docs
+      dockerfile: Dockerfile
+    ports:
+      - "6173:3000"
+    volumes:
+      - ./docs:/book
+
 volumes:
   target-cache:

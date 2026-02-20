@@ -1,0 +1,13 @@
+[book]
+title = "parodyDB"
+authors = ["kolharsam"]
+language = "en"
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = true
+
+[output.html]
+git-repository-url = "https://github.com/kolharsam/parodyDB"
+edit-url-template = "https://github.com/kolharsam/parodyDB/edit/main/docs/{path}"
